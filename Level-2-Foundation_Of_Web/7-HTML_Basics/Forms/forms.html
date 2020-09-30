@@ -1,0 +1,16 @@
+<form action="/new-contact" method="POST">
+  <!-- Input field is one of the most widely used form elements. It's also very versatile element, 
+    it can completely change behavior based on type attribute -->
+  <input type="text" name="username" placeholder="Your Username" />
+  <!-- Email Input -->
+  <input type="email" name="email" placeholder="Your Email" />
+  <!-- Password -->
+  <input type="password" name="password" placeholder="Your password" />
+  <!-- Numbers -->
+  <input type="number" name="age" placeholder="your age" min="18" max="110" />
+  <!-- Hidden - Fields can be hidden from the user. They will still be sent to server upon form submit -->
+  <input type="hidden" name="some-hidden-field" value="some-value" />
+  <!-- Setting default value -->
+  <input type="number" name="age" placeholder="Your Age" value="18" />
+  <input type="submit" value="click me" />
+</form>
