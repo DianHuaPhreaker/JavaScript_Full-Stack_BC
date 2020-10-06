@@ -1,0 +1,8 @@
+li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* li {
+  list-style-image: url(dims.jpeg);
+} */

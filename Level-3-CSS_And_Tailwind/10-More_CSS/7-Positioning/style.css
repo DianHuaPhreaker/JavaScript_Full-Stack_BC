@@ -1,0 +1,21 @@
+.parent {
+  background-color: #af47ff;
+  padding: 30px;
+  width: 300px;
+}
+
+.child {
+  background-color: #ff4797;
+  padding: 30px;
+}
+
+.box {
+  background-color: #f3ff47;
+  padding: 30px;
+  border: 2px solid #333;
+  border-style: dotted;
+  font-family: courier;
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+}

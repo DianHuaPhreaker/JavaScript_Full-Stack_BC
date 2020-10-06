@@ -1,0 +1,32 @@
+/* basic selector */
+p {
+  color: blue;
+}
+
+.alien-name {
+  color: gray;
+}
+#dog-name {
+  color: pink;
+}
+
+/* Targeting An element with a class or id */
+p#fish-name {
+  color: orange;
+}
+
+/* Targeting Multiple Classes */
+.dogg-name.roger {
+  color: black;
+}
+
+/* Combining classes and ids */
+.parrot-name#paulie {
+  color: green;
+}
+
+/* Group Selectors */
+p,
+.birdie-name {
+  color: pink;
+}

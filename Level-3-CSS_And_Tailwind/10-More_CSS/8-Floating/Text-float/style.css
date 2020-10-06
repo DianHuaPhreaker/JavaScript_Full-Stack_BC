@@ -1,0 +1,32 @@
+.parent {
+  background-color: #af47ff;
+  padding: 30px;
+  width: 500px;
+}
+
+.child {
+  background-color: #ff4797;
+  padding: 30px;
+}
+
+.box {
+  background-color: #f3ff47;
+  padding: 30px;
+  border: 2px solid #333;
+  border-style: dotted;
+  font-family: courier;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+img {
+  float: left;
+  padding: 20px 20px 0px 0px;
+}
+
+span {
+  float: right;
+  margin: 20px 0px 20px 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
