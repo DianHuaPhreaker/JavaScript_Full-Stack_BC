@@ -1,0 +1,17 @@
+body {
+  font-family: system-ui;
+}
+
+table,
+td {
+  border: 1px solid gray;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px 20px 10px 20px;
+}
