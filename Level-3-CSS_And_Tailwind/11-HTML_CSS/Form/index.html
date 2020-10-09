@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/test">
+      <p>
+        <label>Name</label>
+        <input name="name" required />
+      </p>
+      <p>
+        <label>Email Address</label>
+        <input type="email" name="email" required />
+      </p>
+      <p>
+        <label>Blog URL</label>
+        <input type="url" required placeholder="http://www.example.com" />
+      </p>
+      <p>
+        <label>Notes</label>
+        <textarea rows="3" placeholder="Anything you want"></textarea>
+      </p>
+      <p>
+        <button type="submit">Save</button>
+      </p>
+    </form>
+  </body>
+</html>
